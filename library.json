@@ -3,52 +3,52 @@
     {
       "id": 1,
       "name": "Fluffy Sweetlips",
-      "image": "/images/1.jpg",
+      "image": "/images/1.jpg"
     },
     {
       "id": 2,
       "name": "Mystical Rainbowmaster",
-      "image": "/images/2.jpg",
+      "image": "/images/2.jpg"
     },
     {
       "id": 3,
       "name": "Sinister Pinkeye",
-      "image": "/images/3.jpg",
+      "image": "/images/3.jpg"
     },
     {
       "id": 4,
       "name": "Sunflower Bluemoon",
-      "image": "/images/4.jpg",
+      "image": "/images/4.jpg"
     },
     {
       "id": 5,
       "name": "Legendary Silvernose",
-      "image": "/images/5.jpg",
+      "image": "/images/5.jpg"
     },
     {
       "id": 6,
       "name": "Buttercup Velvetface",
-      "image": "/images/6.jpg",
+      "image": "/images/6.jpg"
     },
     {
       "id": 7,
       "name": "Sassy Prettylashes",
-      "image": "/images/7.jpg",
+      "image": "/images/7.jpg"
     },
     {
       "id": 8,
       "name": "Magnificent Darlingmane",
-      "image": "/images/8.jpg",
+      "image": "/images/8.jpg"
     },
     {
       "id": 9,
       "name": "Twinkle Charmingfeet",
-      "image": "/images/9.jpg",
+      "image": "/images/9.jpg"
     },
     {
       "id": 10,
       "name": "Perky Sparklerump",
-      "image": "/images/10.jpg",
-    },
+      "image": "/images/10.jpg"
+    }
   ]
 }
