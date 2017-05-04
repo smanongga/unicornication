@@ -1,16 +1,15 @@
-const fs = require('fs')
-const lib = require('./library.json')
+ const fs = require('fs')
 
-function getFileContents (lib, cb) {
-fs.readFile((err, contents) => {
-  if (err) {
-    return err
-  }
-  const data = JSON.parse(contents)
-  cb(null, contents)
-})
-}
+ function getFileContents (lib, cb) {
+ fs.readFile((err, contents) => {
+   if (err) {
+   return err
+   }
+   const data = JSON.parse(contents)
+   cb(null, data)
+     })
+ }
 
-module.exports = {
-  getFileContents,
-}
+ module.exports = {
+   getFileContents
+ }
