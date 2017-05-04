@@ -1,17 +1,9 @@
 const express = require('express')
 const routes = express.Router()
-<<<<<<< HEAD
 
-
-
-routes.get('/', function(req, res) {
-  res.render('main')
-})
-
-=======
 // const functions = require('./functions')
 // const lib = ("./library.json")
->>>>>>> a4e989a1bb92c8ff8ffd71f9759e90f1d6b497ef
+
 
 module.exports = routes
 
