@@ -1,0 +1,33 @@
+{
+  "name": "unicornication",
+  "version": "1.0.0",
+  "description": "Random unicorn",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "debug": "nodemon --inspect --debug-brk index.js",
+    "test": "tape tests/test.js | tap-diff"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smanongga/unicornication.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smanongga/unicornication/issues"
+  },
+  "homepage": "https://github.com/smanongga/unicornication#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "supertest": "^3.0.0",
+    "tap-diff": "^0.1.1",
+    "tape": "^4.6.3"
+  }
+}
