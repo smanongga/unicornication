@@ -20,4 +20,6 @@ module.exports = routes
  console.log(contents)
  res.render('layouts/main', contents)
 
+
  })
+})
