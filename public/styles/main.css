@@ -112,4 +112,14 @@ input[type=text] {
 
 .myUnicorn span.human {
   font-size: 30px;
+  color: #FFBF00;
+}
+
+.myUnicorn span.unicorn {
+  font-size: 45px;
+  color: #D5A8FF;
+}
+.myUnicorn img {
+  border-radius: 50%;
+  margin-top:30px;
 }
