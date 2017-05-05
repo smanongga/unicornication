@@ -21,7 +21,7 @@ function letterValue(str){
    return err
    }
    const data = JSON.parse(contents)
-   
+
    cb(null, data)
      })
  }
@@ -35,6 +35,7 @@ function add(a,b){
 
 
 function namesToNumber(name){
+
 return letterValue(name).reduce(add,0)
 
 }
