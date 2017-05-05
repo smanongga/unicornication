@@ -25,7 +25,7 @@
 14 verbose stack     at maybeClose (internal/child_process.js:886:16)
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 15 verbose pkgid unicornication@1.0.0
-16 verbose cwd /Users/eda/workspace/unicornication
+16 verbose cwd /Users/eda/workspace/unicornication/public
 17 error Darwin 16.5.0
 18 error argv "/Users/eda/.nvm/versions/node/v6.10.2/bin/node" "/Users/eda/.nvm/versions/node/v6.10.2/bin/npm" "start"
 19 error node v6.10.2
