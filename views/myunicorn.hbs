@@ -1,10 +1,14 @@
+    {{> header}}
 <div class="submission-form">
     <form method="POST" action="./save">
     <input name="humanName" type="text"></input>
     <input type="submit" name="" value="Unicornicate Me!">
     </form>
   </div>
-<div class="myUnicorn">
-<img src={{image}}>
-<h2>{{name}}</h2>
-</div>
+  <div class="myUnicorn">
+    <span class="human">{{human}}</span><br/>
+    <span class="unicorn">{{name}}</span><br/>
+  <img src={{image}}>
+
+  </div>
+    {{> footer}}

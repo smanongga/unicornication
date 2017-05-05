@@ -9,38 +9,30 @@ function letterValue(str){
          L: 2, M:3, N: 4,O: 5, P: 6, Q: 1, R: 2, S: 3, T: 4,
          U: 5, V: 1, W: 2, X: 3, Y: 4, Z: 5
      }
-     if(str.length== 1) return alph[str] || ' ';
-         return str.split('').map(letterValue);
-     }
-
-
-
- function getFileContents (lib, cb) {
- fs.readFile(lib,(err, contents) => {
-   if (err) {
-   return err
-   }
-   const data = JSON.parse(contents)
-
-   cb(null, data)
-     })
- }
-
-
-
-function add(a,b){
-  return a+b
+    if (str.length == 1)
+  return alph[str] || ' ';
+return str.split('').map(letterValue);
 }
 
+function getFileContents(lib, cb) {
+  fs.readFile(lib, (err, contents) => {
+    if (err) {
+      return err
+    }
+    const data = JSON.parse(contents)
 
+    cb(null, data)
+  })
+}
+
+function add(a, b) {
+  return a + b
+}
 
 function namesToNumber(name){
 
 return letterValue(name).reduce(add,0)
-
 }
-
-
 module.exports = {
   getFileContents,
   namesToNumber

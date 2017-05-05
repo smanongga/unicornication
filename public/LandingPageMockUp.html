@@ -9,27 +9,47 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-    <style src="/styles/starter-template.css"></style>
 
 
     <link href="https://fonts.googleapis.com/css?family=Vibur" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Schoolbell" rel="stylesheet">
-    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="styles/main.css">
 
   </head>
   <body>
 
+  <a href="/"><h1 class="pageTitle">Unicornication</h1></a>
+
   <div class="container">
     <div class="starter-template">
 
-  {{{body}}}
+            <div class="submission-form">
+                <form method="POST" action="./save">
+                <input name="humanName" type="text"></input>
+                <input type="submit" name="" value="Unicornicate Me!">
+                </form>
+              </div>
+
+      <div class="latest">
+      <h2>Latest submissions</h2>
+      <ul>
+       <li><span class=“human”>Jack</span> | <span class=“unicorn”>Fluffy Sweetlips</span></li>
+       <li><span class=“human”>Rob</span> | <span class=“unicorn”>Mythical Rainbowmaster</span</li>
+       <li><span class=“human”>Jules</span> | <span class=“unicorn”>Sinister Pinkeye</span</li>
+       <li><span class=“human”>Sam H</span> | <span class=“unicorn”>Sunflower Bluemoon</span</li>
+       <li><span class=“human”>Sam M</span> | <span class=“unicorn”>Legendary Silvernose</span</li>
+     </ul>
+      </div>
 
 </div> <!-- /.starter-template -->
 </div><!-- /.container -->
 
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
     <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
