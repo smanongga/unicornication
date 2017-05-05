@@ -20,13 +20,9 @@ body {
 }
 .pageTitle, .more-link {
   text-align: center;
-<<<<<<< HEAD
   margin-top: 180px;
-=======
   color: #B34DBF;
   font-family: Vibur;
-  
->>>>>>> 31391a469c243fa8ac62d8e9879b30c722a698f3
 }
 
 .pageTitle {
@@ -35,14 +31,11 @@ body {
   color: #B34DBF;
   font-family: Vibur;
 }
-<<<<<<< HEAD
 
 .submission-form {
   color: #990099;
   font-family: Helvetica;
 }
-=======
->>>>>>> 31391a469c243fa8ac62d8e9879b30c722a698f3
 
 
 /*.btn-info {
