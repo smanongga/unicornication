@@ -21,7 +21,7 @@ function letterValue(str){
    return err
    }
    const data = JSON.parse(contents)
-   console.log(contents)
+   
    cb(null, data)
      })
  }
@@ -41,5 +41,6 @@ return letterValue(name).reduce(add,0)
 
 
 module.exports = {
-  getFileContents
+  getFileContents,
+  namesToNumber
 }
