@@ -1,0 +1,38 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+
+}
+.submission-form, .latest, .more-link {
+  margin:0 auto;
+  width:50%;
+}
+.submission-form  {
+  text-align:center;
+  color: #990099;
+}
+.pageTitle, .more-link {
+  text-align: center;
+  color: #B34DBF;
+  font-family: Vibur;
+  
+}
+
+.pageTitle {
+  font-size: 100px;
+  text-align: center;
+  color: #B34DBF;
+  font-family: Vibur;
+
+}
+
+.latest {
+  text-decoration: none;
+}
+
+h2 {
+  font-family: Roboto;
+  color: #ff1ab3;
+}
