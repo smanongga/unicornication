@@ -96,7 +96,7 @@ h2{
 }
 
 .latest ul {
-  list-style-type: none;
+  list-style-type: none!important;
   text-align: center;
   padding: 0px;
   font-size: 18px;
@@ -119,7 +119,7 @@ input[type=text] {
 }
 
 .myUnicorn span.human {
-  font-size: 30px;
+  font-size: 30px !important;
   color: #FFBF00;
 }
 

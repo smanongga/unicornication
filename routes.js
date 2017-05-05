@@ -15,8 +15,14 @@ module.exports = routes
 
 
 
- routes.get('/', (req,res) => {
- res.render('index')
+routes.get('/', (req,res) => {
+  functions.getFileContents(hist, (err,contents) =>{
+  if(err){
+      return res.send(err.message).status(500)
+  }
+console.log(contents)
+  res.render('index', contents)
+})
 })
 
 routes.post('/save', (req, res) => {
