@@ -3,5 +3,12 @@ body {
 }
 .starter-template {
   padding: 40px 15px;
-  text-align: center;
+
+}
+.submission-form, .latest, .more-link {
+  margin:0 auto;
+  width:50%;
+}
+.submission-form  {
+  text-align:center;
 }
