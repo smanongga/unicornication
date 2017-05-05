@@ -4,7 +4,7 @@
   "description": "Random unicorn",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "debug": "nodemon --inspect --debug-brk index.js",
     "test": "tape tests/test.js | tap-diff"
   },
