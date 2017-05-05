@@ -1,0 +1,27 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.pageTitle {
+  font-size: 100px;
+  text-align: center;
+  color: #B34DBF;
+  font-family: Vibur;
+
+}
+.submission-form {
+  color: #990099;
+}
+
+.latest {
+  text-decoration: none;
+}
+
+h2 {
+  font-family: Roboto;
+  color: #ff1ab3;
+}
