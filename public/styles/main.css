@@ -1,6 +1,4 @@
-* {
-  border: thin solid red;
-}
+
 
 body {
   padding-top: 50px;
@@ -59,5 +57,77 @@ body {
 }
 
 .latest ul li {
+  font-family: Schoolbell;
+  color: #d966ff;
   text-decoration: none;
+}
+
+.item{
+  display: block;
+  width: 200px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 16px;
+}
+.item img{
+ width: 200px;
+ border-radius: 50%;
+ border:5px solid pink;
+}
+
+.grid{
+  margin-top: 50px;
+}
+
+span.human{
+  font-family: verdana;
+}
+
+span.unicorn{
+  font-family: vibur;
+  font-size: 20px;
+}
+
+h2{
+  font-family: schoolbell;
+  text-align: center;
+}
+
+.latest ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0px;
+  font-size: 18px;
+}
+
+input[type=submit] {
+  background-color:  #D3FFA6;
+  color: #c61aff;
+  font-weight: bold;
+}
+
+input[type=text] {
+  border: 3px solid #FFA7FF;
+  color: #ff3385
+}
+
+.myUnicorn {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.myUnicorn span.human {
+  font-size: 30px;
+  color: #FFBF00;
+}
+
+.myUnicorn span.unicorn {
+  font-size: 45px;
+  color: #D5A8FF;
+}
+.myUnicorn img {
+  border-radius: 50%;
+  margin-top:30px;
 }
