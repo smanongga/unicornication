@@ -96,10 +96,12 @@ routes.get('/myunicorn', (req, res) =>{
   res.render('myunicorn', findId)
 })
 
-routes.get('/history' (req,res) => {
+routes.get('/history', (req,res) => {
   functions.getFileContents(hist, (err,contents) =>{
   if(err){
       return res.send(err.message).status(500)
   }
-  res.render('history', hist.submissions)
+console.log(contents)
+  res.render('history', contents)
+})
 })
