@@ -1,3 +1,4 @@
+
 body {
   padding-top: 50px;
   background-color: aliceBlue;
@@ -22,7 +23,6 @@ body {
   text-align: center;
   margin-top: 180px;
   color: #B34DBF;
-  font-family: Vibur;
 }
 
 .pageTitle {
@@ -50,7 +50,7 @@ body {
 
 .latest h2 {
   font-family: Schoolbell;
-  color: ##d966ff;
+  color: #d966ff;
   text-decoration: none;
 }
 
@@ -58,18 +58,19 @@ body {
   display: block;
   width: 200px;
   float: left;
-  margin-right: 10px;
-  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
   text-align: center;
   font-size: 16px;
 }
 .item img{
  width: 200px;
  border-radius: 50%;
+ border:5px solid pink;
 }
 
 .grid{
-  margin-top: 300px;
+  margin-top: 50px;
 }
 
 span.human{
@@ -80,6 +81,35 @@ span.unicorn{
   font-family: vibur;
   font-size: 20px;
 }
-/*.latest ul li {
-  text-decoration: none;
-}*/
+
+h2{
+  font-family: schoolbell;
+  text-align: center;
+}
+
+.latest ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0px;
+  font-size: 18px;
+}
+
+input[type=submit] {
+  background-color:  #D3FFA6;
+  color: #c61aff;
+  font-weight: bold;
+}
+
+input[type=text] {
+  border: 3px solid #FFA7FF;
+  color: #ff3385
+}
+
+.myUnicorn {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.myUnicorn span.human {
+  font-size: 30px;
+}
