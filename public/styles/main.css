@@ -1,9 +1,15 @@
 body {
   padding-top: 50px;
+  background-color: aliceBlue;
+  background-image: url("../images/rainbow.png");
+  background-position:top center;
+  background-repeat: no-repeat;
 }
+
 .starter-template {
   padding: 40px 15px;
   text-align: center;
+  margin-top: 180px;
 }
 
 .pageTitle {
@@ -11,17 +17,30 @@ body {
   text-align: center;
   color: #B34DBF;
   font-family: Vibur;
-
 }
+
 .submission-form {
   color: #990099;
+  font-family: Helvetica;
 }
 
+
+/*.btn-info {
+  color: yellow;
+}*/
+
 .latest {
+  font-family: Abel;
+  color: #ff1ab3;
   text-decoration: none;
 }
 
-h2 {
-  font-family: Roboto;
-  color: #ff1ab3;
+.latest h2 {
+  font-family: Schoolbell;
+  color: ##d966ff;
+  text-decoration: none;
 }
+
+/*.latest ul li {
+  text-decoration: none;
+}*/
