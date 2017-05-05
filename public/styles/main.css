@@ -54,6 +54,32 @@ body {
   text-decoration: none;
 }
 
+.item{
+  display: block;
+  width: 200px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+.item img{
+ width: 200px;
+ border-radius: 50%;
+}
+
+.grid{
+  margin-top: 300px;
+}
+
+span.human{
+  font-family: verdana;
+}
+
+span.unicorn{
+  font-family: vibur;
+  font-size: 20px;
+}
 /*.latest ul li {
   text-decoration: none;
 }*/
