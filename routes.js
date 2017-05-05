@@ -14,7 +14,7 @@ module.exports = routes
 
 
  routes.get('/', (req,res) => {
- res.render('layouts/main')
+ res.render('index')
 })
 
 routes.post('/save', (req, res) => {
@@ -23,7 +23,7 @@ routes.post('/save', (req, res) => {
 
 
   const nameNum = functions.namesToNumber(inputName)
-
+console.log(functions.namesToNumber(inputName))
 if (nameNum <=4){
   result = 1
 }
