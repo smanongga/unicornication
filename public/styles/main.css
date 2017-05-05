@@ -3,7 +3,21 @@ body {
 }
 .starter-template {
   padding: 40px 15px;
+
+}
+.submission-form, .latest, .more-link {
+  margin:0 auto;
+  width:50%;
+}
+.submission-form  {
+  text-align:center;
+  color: #990099;
+}
+.pageTitle, .more-link {
   text-align: center;
+  color: #B34DBF;
+  font-family: Vibur;
+  
 }
 
 .pageTitle {
@@ -12,9 +26,6 @@ body {
   color: #B34DBF;
   font-family: Vibur;
 
-}
-.submission-form {
-  color: #990099;
 }
 
 .latest {
